@@ -7,7 +7,7 @@ async function sincronizar() {
 }
 
 async function inserir() {
-  await HQ.create({titulo:"Conseguimos!!!"});
+  await HQ.create({titulo:"Outro!!!"});
 }
 
 async function consultar() {
@@ -16,5 +16,5 @@ async function consultar() {
 }
 
 // sincronizar();
-// inserir();
-consultar();
+ inserir();
+// consultar();
